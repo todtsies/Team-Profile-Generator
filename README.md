@@ -3,11 +3,13 @@
   [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This Team Generator application takes in command-line input to collect certain professional details about each individual. In this application, the user is able to add a Manager, an Engineer, and an Intern to their team. Form there, a functional and professionally formatted HTML document is rendered to the ```dist``` folder.
+  This Team Generator application takes in command-line input to collect certain professional details about each individual. In this application, the user is able to add a Manager, an Engineer, and an Intern to their team. From there, a functional and professionally formatted HTML document is rendered to the ```dist``` folder.
 
   ## Demo
 
   ![Application Preview](assets/shortfulldemo.gif)
+
+  To view the full demo, please direct yourself to ```assests``` folder.
   
 
   ## Table of Contents
