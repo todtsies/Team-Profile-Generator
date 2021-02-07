@@ -32,7 +32,7 @@ describe("Intern", () => {
     it("Should return the object's id property", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
 
-      expect(intern.getId()).toEqual(1);
+      expect(intern.getID()).toEqual(1);
     });
   });
 

@@ -30,7 +30,7 @@ describe("Employee", () => {
     it("Should return the object's id property", () => {
       const employee = new Employee("Jane Doe", 1, "janedoe@gmail.com");
 
-      expect(employee.getId()).toEqual(1);
+      expect(employee.getID()).toEqual(1);
     });
   });
 

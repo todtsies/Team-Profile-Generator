@@ -12,7 +12,7 @@ const engineerCard = (profile) => `
       <ul class="list-group">
         <li class="list-group-item">
           <span class="font-weight-bold">ID: </span>
-          ${profile.getId()}
+          ${profile.getID()}
         </li>
         <li class="list-group-item">
           <span class="font-weight-bold">Email: </span>
