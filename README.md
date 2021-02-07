@@ -7,7 +7,7 @@
 
   ## Demo
 
-  ![Application Preview](assets/FullDemo.mp4)
+  ![Application Preview](assets/shortfulldemo.gif)
   
 
   ## Table of Contents
