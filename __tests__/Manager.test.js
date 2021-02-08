@@ -2,10 +2,10 @@
 const Employee = require("../lib/Employee");
 const Manager = require("../lib/Manager");
 
-// Test Employee class
+
 describe("Manager", () => {
   
-  // Test object instantiation
+  
   describe("Manager object instantiation", () => {
     it("Creates an object with name, id, email, and officeNumber properties", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);
@@ -18,7 +18,6 @@ describe("Manager", () => {
     });
   });
 
-  // Test getName() method
   describe("getName", () => {
     it("Should return the object's name property", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);
@@ -27,7 +26,6 @@ describe("Manager", () => {
     });
   });
 
-  // Test getId() method
   describe("getId", () => {
     it("Should return the object's id property", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);
@@ -36,7 +34,6 @@ describe("Manager", () => {
     });
   });
 
-  // Test getEmail() method
   describe("getEmail", () => {
     it("Should return the object's email property", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);
@@ -45,7 +42,6 @@ describe("Manager", () => {
     });
   });
   
-  // Test getOffice() method
   describe("getOffice", () => {
     it("Should return the object's officeNumber property", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);
@@ -54,7 +50,6 @@ describe("Manager", () => {
     });
   });
 
-  // Test getRole() method
   describe("getRole", () => {
     it("Should return the string 'Manager'", () => {
       const manager = new Manager("Jane Doe", 1, "janedoe@gmail.com", 50);

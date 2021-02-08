@@ -17,6 +17,7 @@ const wrapProfileCards = require('./src/card-wrapper');
 // Team members start off as an empty array
 const team = [];
 
+// Add manager
 const addManager = [
     {
         name: 'role',
@@ -81,6 +82,7 @@ const addEngineer = [
     },
   ];
 
+  // Add intern
   const addIntern = [
     {
       name: 'name',
@@ -137,26 +139,26 @@ function createProfiles(team) {
     const profiles = team.map((member) => {
       const { name, id, email } = member;
   
-      
+      // If you're adding a manager, ask for office number
       if (member.hasOwnProperty('officeNumber')) {
         const { officeNumber } = member;
         return new Manager(name, id, email, officeNumber);
       }
   
-      
+      // if you're adding an engineer, as for github
       if (member.hasOwnProperty('github')) {
         const { github } = member;
         return new Engineer(name, id, email, github);
       }
   
-     
+     // if you're adding an intern, ask for school
       if (member.hasOwnProperty('school')) {
         const { school } = member;
         return new Intern(name, id, email, school);
       }
     });
   
-    // Generate HTML from the newly instantiated profiles
+    // Generate HTML from the profiles made
     generateHtml(profiles);
   }
 

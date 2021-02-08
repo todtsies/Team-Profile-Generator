@@ -2,10 +2,10 @@
 const Employee = require("../lib/Employee");
 const Engineer = require("../lib/Engineer");
 
-// Test Employee class
+
 describe("Engineer", () => {
   
-  // Test object instantiation
+  
   describe("Engineer object instantiation", () => {
     it("Creates an object with name, id, email, and github properties", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");
@@ -18,7 +18,7 @@ describe("Engineer", () => {
     });
   });
 
-  // Test getName() method
+  
   describe("getName", () => {
     it("Should return the object's name property", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");
@@ -27,7 +27,7 @@ describe("Engineer", () => {
     });
   });
 
-  // Test getId() method
+  
   describe("getId", () => {
     it("Should return the object's id property", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");
@@ -36,7 +36,7 @@ describe("Engineer", () => {
     });
   });
 
-  // Test getEmail() method
+  
   describe("getEmail", () => {
     it("Should return the object's email property", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");
@@ -45,7 +45,7 @@ describe("Engineer", () => {
     });
   });
 
-  // Test getGithub() method
+ 
   describe("getGithub", () => {
     it("Should return the object's github property", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");
@@ -54,7 +54,7 @@ describe("Engineer", () => {
     });
   });
 
-  // Test getRole() method
+  
   describe("getRole", () => {
     it("Should return the string 'Engineer", () => {
       const engineer = new Engineer("Jane Doe", 1, "janedoe@gmail.com", "janedoegit");

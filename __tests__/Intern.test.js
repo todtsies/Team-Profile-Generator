@@ -2,10 +2,10 @@
 const Employee = require("../lib/Employee");
 const Intern = require("../lib/Intern");
 
-// Test Employee class
+
 describe("Intern", () => {
   
-  // Test object instantiation
+  
   describe("Intern object instantiation", () => {
     it("Creates an object with name, id, email, and school properties", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
@@ -18,7 +18,7 @@ describe("Intern", () => {
     });
   });
 
-  // Test getName() method
+  
   describe("getName", () => {
     it("Should return the object's name property", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
@@ -27,7 +27,7 @@ describe("Intern", () => {
     });
   });
 
-  // Test getId() method
+ 
   describe("getId", () => {
     it("Should return the object's id property", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
@@ -36,7 +36,7 @@ describe("Intern", () => {
     });
   });
 
-  // Test getEmail() method
+  
   describe("getEmail", () => {
     it("Should return the object's email property", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
@@ -45,7 +45,6 @@ describe("Intern", () => {
     });
   });
 
-  // Test getGithub() method
   describe("getSchool", () => {
     it("Should return the object's school property", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
@@ -54,7 +53,7 @@ describe("Intern", () => {
     });
   });
 
-  // Test getRole() method
+  
   describe("getRole", () => {
     it("Should return the string 'Intern", () => {
       const intern = new Intern("Jane Doe", 1, "janedoe@gmail.com", "University of Richmond");
